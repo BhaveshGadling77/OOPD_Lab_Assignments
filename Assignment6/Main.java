@@ -6,9 +6,8 @@ public class Main {
 
         try {
             emp.display();
-
-            manager.applyLeave(emp, "casual", 3);
-            manager.approveLeave(emp, "casual", 3);
+            manager.applyLeave(emp, "casual", 4);
+            manager.approveLeave(emp, "casual", 4);
 
         } catch (LeaveException e) {
             System.out.println("Exception: " + e.getMessage());
